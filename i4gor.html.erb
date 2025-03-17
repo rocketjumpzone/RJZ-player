@@ -1,18 +1,18 @@
 ---
 layout: player
-title: "Demo"
+title: "i4gor"
 
-name: "Demo"
-full_name: "Demo"
+name: "i4gor"
+full_name: "-"
 org: "-"
-desc: "about the player"
-born: "Demo"
-games: "Game 1, Game 2"
+desc: "hello o/"
+born: "-"
+games: "-"
 
 
-discord_id: "demo"
-country_tag: "it"
-country_name: "Italy"
+discord_id: "8082i4gor"
+country_tag: "pl"
+country_name: "Poland"
 
 ---
 
@@ -20,7 +20,7 @@ country_name: "Italy"
   <div class="w3-row">
     <div class="w3-col l2 m2">
       <h1><%= current_page.data.name %></h1>
-      <%= partial "partials/player/demo/avatar" %>
+      <%= partial "partials/player/i4gor/avatar" %>
       <div class="player-social">
         <div class="w3-tooltip mobile-tooltip w3-hide-small">
           <i class="fab fa-lg fa-discord"></i>
@@ -58,24 +58,20 @@ country_name: "Italy"
         </tr>
         <tr>
           <td><b>Organization:</b></td>
-          <td><%= current_page.data.org %></td>
+          <td><%=current_page.data.org %></td>
         </tr>
         <tr>
           <td><b>Trophies:</b></td>
           <td>
-            <i class="fas fa-trophy trophy-gold"></i> <b><sup><%= data.players.demo.trophies.gold %></sup></b>
-            <i class="fas fa-trophy trophy-silver"></i> <b><sup><%= data.players.demo.trophies.silver %></sup></b>
-            <i class="fas fa-trophy trophy-bronze"></i> <b><sup><%= data.players.demo.trophies.bronze %></sup></b>
+            <i class="fas fa-trophy trophy-gold"></i> <b><sup><%= data.players.i4gor.trophies.gold %></sup></b>
+            <i class="fas fa-trophy trophy-silver"></i> <b><sup><%= data.players.i4gor.trophies.silver %></sup></b>
+            <i class="fas fa-trophy trophy-bronze"></i> <b><sup><%= data.players.i4gor.trophies.bronze %></sup></b>
           </td>
         </tr>
       </table>
     </div>
   </div>
 
-  <hr>
-
-  <h2 class="w3-center">Title</h2>
-  <p class="w3-center">content here..</p>
   
   <hr>
 
