@@ -7,7 +7,7 @@ full_name: "-"
 org: "-"
 desc: "hello o/"
 born: "-"
-games: "-"
+games: "Warfork"
 
 
 discord_id: "8082i4gor"
@@ -22,10 +22,11 @@ country_name: "Poland"
       <h1><%= current_page.data.name %></h1>
       <%= partial "partials/player/i4gor/avatar" %>
       <div class="player-social">
-        <div class="w3-tooltip mobile-tooltip w3-hide-small">
-          <i class="fab fa-lg fa-discord"></i>
-          <span class="w3-text w3-tag w3-padding w3-animate-opacity w3-round tooltip-text"><%= current_page.data.discord_id %></span>
-        </div>
+          <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline">
+              <i class="fab fa-lg fa-discord" aria-hidden="true"></i>
+              <span class="sr-only">Discord</span>
+              <span style="position:absolute;left:40px;bottom:-25px;width:200px" class="w3-text w3-tag w3-padding w3-animate-opacity w3-round"><%= current_page.data.discord_id %></span>
+          </div>
       </div>
     </div>
 

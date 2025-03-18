@@ -1,18 +1,18 @@
 ---
 layout: player
-title: "Demo"
+title: "Taz'sVoice"
 
-name: "Demo"
-full_name: "Demo"
+name: "Taz'sVoice"
+full_name: "-"
 org: "-"
-desc: "about the player"
-born: "Demo"
-games: "Game 1, Game 2"
+desc: "Hey, I'm a War§ow / Warfork guy. Nice to meet you! :)"
+born: "-"
+games: "Warfork"
 
 
-discord_id: "demo"
-country_tag: "it"
-country_name: "Italy"
+discord_id: "TazVoice"
+country_tag: "fr"
+country_name: "France"
 
 ---
 
@@ -20,8 +20,16 @@ country_name: "Italy"
   <div class="w3-row">
     <div class="w3-col l2 m2">
       <h1><%= current_page.data.name %></h1>
-      <%= partial "partials/player/demo/avatar" %>
+      <%= partial "partials/player/tazvoice/avatar" %>
       <div class="player-social">
+          <a href="https://www.youtube.com/@TazVoice" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-lg fa-youtube" aria-hidden="true"></i>
+              <span class="sr-only">YouTube</span>
+          </a>
+          <a href="https://www.twitch.tv/tazvoice" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-lg fa-twitch" aria-hidden="true"></i>
+              <span class="sr-only">Twitch</span>
+          </a>
           <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline">
               <i class="fab fa-lg fa-discord" aria-hidden="true"></i>
               <span class="sr-only">Discord</span>
@@ -64,19 +72,15 @@ country_name: "Italy"
         <tr>
           <td><b>Trophies:</b></td>
           <td>
-            <i class="fas fa-trophy trophy-gold"></i> <b><sup><%= data.players.demo.trophies.gold %></sup></b>
-            <i class="fas fa-trophy trophy-silver"></i> <b><sup><%= data.players.demo.trophies.silver %></sup></b>
-            <i class="fas fa-trophy trophy-bronze"></i> <b><sup><%= data.players.demo.trophies.bronze %></sup></b>
+            <i class="fas fa-trophy trophy-gold"></i> <b><sup><%= data.players.tazvoice.trophies.gold %></sup></b>
+            <i class="fas fa-trophy trophy-silver"></i> <b><sup><%= data.players.tazvoice.trophies.silver %></sup></b>
+            <i class="fas fa-trophy trophy-bronze"></i> <b><sup><%= data.players.tazvoice.trophies.bronze %></sup></b>
           </td>
         </tr>
       </table>
     </div>
   </div>
 
-  <hr>
-
-  <h2 class="w3-center">Title</h2>
-  <p class="w3-center">content here..</p>
   
   <hr>
 
