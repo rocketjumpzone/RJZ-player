@@ -1,18 +1,18 @@
 ---
 layout: player
-title: "Demo"
+title: "sewsw"
 
-name: "Demo"
-full_name: "Demo"
+name: "sewsw"
+full_name: "-"
 org: "-"
-desc: "about the player"
-born: "Demo"
-games: "Game 1, Game 2"
+desc: "-"
+born: "-"
+games: "Warfork, Diabotical"
 
 
-discord_id: "demo"
-country_tag: "it"
-country_name: "Italy"
+discord_id: "seesh"
+country_tag: "gb"
+country_name: "UK"
 
 ---
 
@@ -20,19 +20,15 @@ country_name: "Italy"
   <div class="w3-row">
     <div class="w3-col l2 m2">
       <h1><%= current_page.data.name %></h1>
-      <%= partial "partials/player/demo/avatar" %>
+      <%= partial "partials/player/sewsw/avatar" %>
       <div class="player-social">
-          <a href="https://www.youtube.com/@WindowBreakingGaming" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@se7052" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-lg fa-youtube" aria-hidden="true"></i>
               <span class="sr-only">YouTube</span>
           </a>
-          <a href="https://steamcommunity.com/id/nipplezits/" target="_blank" rel="noopener noreferrer">
+          <a href="https://steamcommunity.com/id/rasheh/" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-lg fa-steam" aria-hidden="true"></i>
               <span class="sr-only">Steam</span>
-          </a>
-          <a href="https://www.twitch.tv/jerkidbt" target="_blank" rel="noopener noreferrer">
-              <i class="fa-brands fa-twitch" aria-hidden="true"></i>
-              <span class="sr-only">Twitch</span>
           </a>
           <div class="w3-tooltip mobile-tooltip w3-hide-small" style="display:inline">
               <i class="fab fa-lg fa-discord" aria-hidden="true"></i>
@@ -76,9 +72,9 @@ country_name: "Italy"
         <tr>
           <td><b>Trophies:</b></td>
           <td>
-            <i class="fas fa-trophy trophy-gold"></i> <b><sup><%= data.players.demo.trophies.gold %></sup></b>
-            <i class="fas fa-trophy trophy-silver"></i> <b><sup><%= data.players.demo.trophies.silver %></sup></b>
-            <i class="fas fa-trophy trophy-bronze"></i> <b><sup><%= data.players.demo.trophies.bronze %></sup></b>
+            <i class="fas fa-trophy trophy-gold"></i> <b><sup><%= data.players.sewsw.trophies.gold %></sup></b>
+            <i class="fas fa-trophy trophy-silver"></i> <b><sup><%= data.players.sewsw.trophies.silver %></sup></b>
+            <i class="fas fa-trophy trophy-bronze"></i> <b><sup><%= data.players.sewsw.trophies.bronze %></sup></b>
           </td>
         </tr>
       </table>
@@ -87,13 +83,31 @@ country_name: "Italy"
 
   <hr>
 
-  <h2 class="w3-center">Title</h2>
-  <p class="w3-center">content here..</p>
-
+  <h2 class="w3-center">RJZ Tournaments</h2>
+  <table class="w3-table w3-bordered tourneys">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Earned</th>
+        <th>Place</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="width:90%">
+          <a href="/diabotical/rjz-diabotical-aim-arena-cup" target="_blank">RJZ Diabotical Aim Arena Cup 2025</a>
+        </td>
+        <td class="w3-center">-</td>
+        <td class="w3-center">
+          <i class="fas fa-trophy trophy-gold"></i>
+        </td>
+      </tr>
+  </table
+  
   <hr>
 
-  <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>
-
+  <div class="sharethis-inline-reaction-buttons" style="margin-top:50px"></div>    
+      
 </div>
 
 <style>
@@ -125,3 +139,4 @@ country_name: "Italy"
     margin-top: 50px;
   }
 </style>
+
